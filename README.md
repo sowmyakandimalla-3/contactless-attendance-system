@@ -1,29 +1,25 @@
-# 👩‍💻 Contactless Attendance System
+# Contactless Attendance System
 
 ## 🌟 Overview  
 The **Contactless Attendance System** is a sustainable, technology-driven solution that automates attendance marking using **Face Recognition**.  
 It utilizes **Python ** and **OpenCV ** to detect and recognize faces in real-time, recording attendance data automatically in a CSV file.  
 This project promotes a **contactless and paperless** approach, reducing manual errors and improving operational efficiency in educational and organizational environments.  
 
----
-
 ## 🚀 Features  
-✨ **Contactless Attendance** — No physical interaction needed; uses face recognition.  
-📸 **Real-Time Detection** — Captures and recognizes faces instantly using webcam.  
-🗂️ **Automatic Storage** — Saves attendance with timestamps in CSV format.  
-🖥️ **Easy-to-Use GUI** — Built with Tkinter for simple user control and tracking.  
-⚡ **Lightweight System** — Runs efficiently on standard laptops (no GPU required).  
-
----
+ **Contactless Attendance** — No physical interaction needed; uses face recognition.  
+ **Real-Time Detection** — Captures and recognizes faces instantly using webcam.  
+ **Automatic Storage** — Saves attendance with timestamps in CSV format.  
+ **Easy-to-Use GUI** — Built with Tkinter for simple user control and tracking.  
+ **Lightweight System** — Runs efficiently on standard laptops (no GPU required).  
 
 ## 🧰 Tech Stack  
 
-| 🧩 Component | ⚙️ Technology |
+|  Component |  Technology |
 |--------------|--------------|
-| **Programming Language** | Python 🐍 |
+| **Programming Language** | Python  |
 | **Libraries** | OpenCV, NumPy, Pandas, Tkinter |
 | **Storage** | CSV File (`data/attendance.csv`) 📄 |
-| **IDE / Environment** | Visual Studio Code 💻 |
+| **IDE / Environment** | Visual Studio Code |
 
 ---
 
@@ -42,19 +38,12 @@ contactless-attendance-system/
 ├── 📁 models/ # Stores trained model files (auto-created)
 └── 📁 data/ # Stores attendance CSV files
 
-yaml
-Copy code
-
----
-
-## 🧑‍🏫 How It Works  
+##  How It Works  
 
 1️⃣ **Capture Faces** — Use webcam to register new faces for recognition.  
 2️⃣ **Train Model** — The system trains a recognizer based on captured data.  
 3️⃣ **Recognize Faces** — During attendance, the camera identifies and marks recognized faces.  
 4️⃣ **View Records** — Attendance is saved automatically in `data/attendance.csv` with timestamps.  
-
----
 
 ##  Installation & Setup  
 
