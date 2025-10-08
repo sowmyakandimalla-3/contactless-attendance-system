@@ -92,6 +92,8 @@ Copy code
 python gui.py
 
 
+---
+
 🎯 Output Examples
 -> GUI Interface
 User-friendly control panel to capture, train, and recognize faces.
