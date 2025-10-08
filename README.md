@@ -66,6 +66,34 @@ contactless-attendance-system/
 
 ---
 
+
+## Output Examples
+
+**🧾 GUI Interface**
+
+-User-friendly control panel to capture, train, and recognize faces.
+
+- Face Recognition in Action
+
+- Real-time webcam recognition marking attendance automatically.
+
+- Attendance Record Generated
+
+- Attendance saved with name, ID, and timestamp in CSV format.
+
+
+## Acknowledgements
+
+- OpenCV — for computer vision and face recognition.
+- Python — for simplicity and rapid development.
+- Inspired by sustainable smart-campus automation projects.
+  
+
+## Inspired by sustainable smart campus automation projects.
+
+---
+
+
 ##  Installation & Setup  
 
 ### 1️⃣ Clone the repository  
@@ -87,27 +115,6 @@ bash
 Copy code
 pip install -r requirements.txt
 5️⃣ Run the GUI
-bash
-Copy code
 python gui.py
 
 
----
-
-🎯 Output Examples
--> GUI Interface
-User-friendly control panel to capture, train, and recognize faces.
-
--> Face Recognition in Action
-Real-time webcam recognition marking attendance automatically.
-
--> Attendance Record Generated
-Attendance saved with name, ID, and timestamp in CSV format.
-
-
-🏆 Acknowledgements
- OpenCV — for computer vision and face recognition.
-
- Python — for simplicity and rapid development.
-
- Inspired by sustainable smart campus automation projects.
